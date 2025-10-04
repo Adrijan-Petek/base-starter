@@ -1,0 +1,21 @@
+{
+  "name": "base-deploy-starter",
+  "version": "1.0.0",
+  "description": "A developer-friendly Hardhat starter kit optimized for Base Network deployments.",
+  "main": "hardhat.config.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile",
+    "deploy-sepolia": "npx hardhat run scripts/deploy-erc20.js --network baseSepolia",
+    "deploy-mainnet": "npx hardhat run scripts/deploy-erc20.js --network baseMainnet"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.0",
+    "dotenv": "^16.3.1",
+    "hardhat": "^2.19.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0"
+  }
+}
