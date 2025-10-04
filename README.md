@@ -2,7 +2,13 @@
 
 🚀 **Overview**
 
-A developer-friendly Hardhat starter kit optimized for Base Network deployments.
+A developer-f### Generate Test Wallet
+
+```bash
+npm run generate-wallet
+```
+
+### Deploy ERC20 Tokenndly Hardhat starter kit optimized for Base Network deployments.
 Includes everything you need to deploy, verify, and interact with smart contracts on Base Mainnet and Base Sepolia out of the box.
 
 ## 📂 Folder Structure
@@ -44,7 +50,21 @@ The `hardhat.config.js` is pre-configured for Base Mainnet and Base Sepolia.
 
 2. Fill in your private key and Basescan API key in `.env`.
 
-## 🛠️ Scripts
+## � Generate Test Wallet
+
+If you don't have a wallet yet, generate a new test wallet:
+
+```bash
+npm run generate-wallet
+```
+
+This will create a new Ethereum wallet with address and private key. **⚠️ Use only for testing!**
+
+For testnet ETH, visit:
+- [Base Sepolia Faucet](https://faucet.quicknode.com/base/sepolia)
+- [Sepolia Faucet](https://sepoliafaucet.com/)
+
+## �🛠️ Scripts
 
 ### Deploy ERC20 Token
 
